@@ -5,10 +5,10 @@ export default function Contacts() {
             Contact Us
         </h1>
         <div className="text-emerald-300 pb-4">
-            Mobile no. -
+            Mobile no. - 9984844002, 9005490418
         </div>
         <div className="text-emerald-300">
-            Email Id -
+            Email Id - devendrarajpoot008@gmail.com
         </div>
 
     </div>
