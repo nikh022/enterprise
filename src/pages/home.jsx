@@ -1,4 +1,5 @@
 import Contacts from "../components/contacts";
+import FarmImage from "../assets/farming.svg"
 
 export default function Home() {
     return (
@@ -11,8 +12,7 @@ export default function Home() {
 
             </div>
             <div className="mx-20">
-            <img className="h-auto max-w-full " height={500} width={500} src="src/assets/farming.svg" alt="image description"/>
-
+                <img className="h-auto max-w-full " height={500} width={500} src={FarmImage} alt="image description" />
             </div>
         </div>
     )
