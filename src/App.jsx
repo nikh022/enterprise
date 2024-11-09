@@ -1,10 +1,13 @@
 import { useState } from "react";
 import "./App.css";
+import Navbar from "./components/navbar";
+import Home from "./pages/home/home";
 
 function App() {
-  return <>
-      <h1 className="bg-slate-300">hello</h1>
-  </>;
+  return <div className="bg-gray-800">
+      <Navbar/>
+      <Home/>
+  </div>;
 }
 
 export default App;
