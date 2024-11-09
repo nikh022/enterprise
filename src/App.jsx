@@ -1,14 +1,17 @@
 import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/navbar";
-import Home from "./pages/home/home";
+import Home from "./pages/home";
 import Footer from "./components/footer";
+import Contacts from "./components/contacts";
 
 function App() {
   return <div className="bg-gray-800">
       <Navbar/>
       <Home/>
+      <Contacts/>
       <Footer/>
+
   </div>;
 }
 
