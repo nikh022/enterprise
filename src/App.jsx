@@ -6,13 +6,20 @@ import Footer from "./components/footer";
 import Contacts from "./components/contacts";
 
 function App() {
-  return <div className="bg-gray-800">
-      <Navbar/>
-      <Home/>
-      <Contacts/>
-      <Footer/>
-
-  </div>;
+  return (
+    <>
+      <div className="bg-gray-800">
+        <Navbar />
+        <Home />
+        <Contacts/>
+      </div>
+      <div className="bg-gray-950">
+        
+      <Footer />
+    
+  </div>
+    </>
+  );
 }
 
 export default App;
