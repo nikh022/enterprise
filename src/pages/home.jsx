@@ -14,9 +14,6 @@ export default function Home() {
             <img className="h-auto max-w-full " height={500} width={500} src="src/assets/farming.svg" alt="image description"/>
 
             </div>
-            <div className="mx-20">
-                <img className="h-auto max-w-full " height={500} width={500} src="src/assets/farming.svg" alt="image description" />
-            </div>
         </div>
     )
 }
