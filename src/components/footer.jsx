@@ -4,6 +4,7 @@ export default function Footer() {
   return (
     <>
       <div>
+
         <div class="text-5xl font-extrabold ...">
           <span class="py-5 flex justify-center bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
             Varsha Enterprises
