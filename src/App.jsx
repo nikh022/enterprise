@@ -1,9 +1,15 @@
 import { useState } from "react";
 import "./App.css";
+import Footer from "./components/footer";
+import Navbar from "./components/navbar";
+
 
 function App() {
   return <>
-      <h1 className="bg-slate-300">hello</h1>
+
+<Navbar/>
+      <Footer/>
+
   </>;
 }
 
